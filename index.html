@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>count money</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="stylesheet" href="css/animate.css">
+
+
+</head>
+<body>
+    <div class="loading_wrap">
+        <div id="loading"></div>
+    </div>
+    <div class="wrap">
+        <div id="p1">
+            <div id="index">
+                <img class="tiaozhan animated bounceIn" src="img/tiaozhan.png">
+                <img class="yinqu animated swing" src="img/yinqu.png" alt="">
+                <img class="start-btn animated pulse" src="img/start_game.png" alt="">
+                <img class="shou fadeOut animated" src="img/shou.png" alt="">
+                <div class="p1_btns_wrap">
+                    <img class="ranking" src="img/ranking.png" alt="">
+                    <img class="activity_rule" src="img/activity_rule.png" alt="">
+                    <img class="prize" src="img/prize.png" alt="">
+                    <img class="shiyong" src="img/shiyong.png" alt="">
+                </div>
+            </div>
+            <div class="p1_mark" id="user_data">
+                <img src="img/close.png" alt="" class="close">
+                <form action="" class="userData_wrap">
+                    <input type="text" class="userData_name text" placeholder="姓名">
+                    <input type="text" class="tel text" placeholder="电话">
+                    <input type="button" class="sub" value=" ">
+                </form>
+            </div>
+        </div>
+        <div class="p1_mark" id="ranking">
+            <img class="close" src="img/close.png" alt="">
+            <div class="ranking_wrap">
+                <ul>
+                    <li>
+                        <span class="rank"></span>
+                        <img class="title_img" src="img/shizhong.png">
+                        <span class="user_name">聪明的小王</span>
+                        <span class="point">99800￥</span>
+                    </li>
+                    <li>
+                        <span class="rank"></span>
+                        <img class="title_img" src="img/shizhong.png">
+                        <span class="user_name">社会雲姐</span>
+                        <span class="point">88800￥</span>
+                    </li>
+                    <li>
+                        <span class="rank"></span>
+                        <img class="title_img" src="img/shizhong.png">
+                        <span class="user_name">乡非霖少</span>
+                        <span class="point">77700￥</span>
+                    </li>
+                    <li>
+                        <span class="rank"></span>
+                        <img class="title_img" src="img/shizhong.png">
+                        <span class="user_name">天线宝宝</span>
+                        <span class="point">66600￥</span>
+                    </li>
+                    <li>
+                        <span class="rank"></span>
+                        <img class="title_img" src="img/shizhong.png">
+                        <span class="user_name">地主家的儿子</span>
+                        <span class="point">55500￥</span>
+                    </li>
+                    <li>
+                        <span class="rank"></span>
+                        <img class="title_img" src="img/shizhong.png">
+                        <span class="user_name">隔壁老王</span>
+                        <span class="point">33300￥</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="p1_mark" id="activity_rule">
+            <img class="close" src="img/close.png" alt="">
+            <div class="float_wrap">
+                <h2>活动规则</h2>
+                <p>1、每人有多次游戏机会，但成绩只能提交一次，且提交之后不能更改！<br> 2、提交成绩时要提供姓名及手机号码作为兑奖凭证，因用户本人未在规定时间内提供正确的手机号码造成的奖品损失，由用户个人承担。
+                    <br> 3、活动时间为2017年9月20日-10月19日24:00，活动结束后将在“lovey雲yun”微信公布中奖名单。
+                    <br> 4、获奖规则：系统将根据大家提交的成绩，按照由多到少的规则进行排行，排名第1的网友将获得一等奖，排名第2-第21位的网友将分获二等奖，以此类推。
+                    <br> 5、奖品的发放：活动结束后，将由工作人员与您取得联系，并将相应的卡券编号发送到您提供的手机号码上。
+                </p>
+            </div>
+        </div>
+        <div class="p1_mark" id="prize">
+            <img class="close" src="img/close.png" alt="">
+            <div class="float_wrap">
+                <h2>活动奖品</h2>
+                <p>一等奖1人：价值1488元尚客优1晚豪华标间免费房券1张，并可享29元火锅3折优惠；</p>
+                <p>二等奖20人：100元订房代金券每人1张，并可享29元火锅4折优惠；</p>
+                <p>三等奖50人：50元订房代金券每人1张，并可享29元5折优惠。</p>
+                <p>奖品的有效期：2017年9月20日至12月15日（周五、周六及法定节假日不可用）</p>
+            </div>
+        </div>
+        <div class="p1_mark" id="shiyong">
+            <img class="close" src="img/close.png" alt="">
+            <div class="float_wrap">
+                <h2>奖券使用说明</h2>
+                <p>1、奖品的使用：请务必至少提前一周致电13979318939进行预约，并于入住时向前台服务人员出示您手机上收到的卡券编号即可使用（需同时验证获奖人姓名与手机号码）。<br> 2、代金券仅适用于线下门市价入住客房消费使用，不适用于通过携程或微信等其他线上渠道预定使用。
+                    <br> 3、免费房安排的房间将视当时酒店排房情况而定，如您所预约的时段预订已满，将与您协商调整入住时间。
+                    <br> 4、免费房券及代金券不得用于除订房外其他产品消费，不得与酒店其他优惠折扣或礼券同时使用，且不予退换、兑换现金或找赎。
+                    <br> 5、对于恶意刷奖者和作弊者，主办方有权取消其兑奖资格。
+                </p>
+            </div>
+        </div>
+        <div id="p2">
+            <div id="game">
+                <p id="prompt"></p>
+                <img class="kuang" src="img/p2_kuang.png">
+                <img class="p2_txt" src="img/p2_txt1.png" alt="">
+                <div class="qian_wrap">
+                    <img id="qian_swiper" class="p2_qian" src="img/p2_qian.jpg">
+                </div>
+                <img class="p2_zhuan" src="img/p2_zhuan.png" alt="">
+                <img class="p2_shou fadeOutUp animated" src="img/p2_shou.png">
+                <div id="timeDown">
+                    <span class="time_num">0</span>
+                    <span class="time_num">0</span>
+                    <span class="time_num">0</span>
+                    <span class="clock">60</span>
+                </div>
+            </div>
+        </div>
+        <div id="p3">
+            <div id="result">
+                <img src="img/p3_acquire.png" alt="" class="p3_acquire">
+                <div id="result_score"></div>
+                <div id="result_txt">你太客气了，这不是你的挑战极限吧</div>
+                <div class="result_rank">
+                    本榜最高战绩为:￥
+                    <span id="highScore">998</span>
+                    当前排名
+                    <span id="result_rank">88</span>
+                    名
+                </div>
+                <img id="p3_again" src="img/p3_again.png" alt="" class="p3_btn">
+                <img id="p3_share_btn" src="img/p3_share_btn.png" alt="" class="p3_btn">
+                <div class="p1_btns_wrap">
+                    <img class="ranking" src="img/ranking.png" alt="">
+                    <img class="activity_rule" src="img/activity_rule.png" alt="">
+                    <img class="prize" src="img/prize.png" alt="">
+                    <img class="shiyong" src="img/shiyong.png" alt="">
+                </div>
+            </div>
+            <div class="p1_mark" id="share">
+                <img src="img/p3_share.png" alt="" class="p3_share">
+            </div>
+        </div>
+    </div>
+</body>
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/hammer.min.js"></script>
+<script type="text/javascript" src="js/touch.min.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+</html>
